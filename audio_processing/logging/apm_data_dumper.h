@@ -11,9 +11,6 @@
 #ifndef MODULES_AUDIO_PROCESSING_LOGGING_APM_DATA_DUMPER_H_
 #define MODULES_AUDIO_PROCESSING_LOGGING_APM_DATA_DUMPER_H_
 
-// define WEBRTC_APM_DEBUG_DUMP
-#include "build_config.h"
-
 #include <stdint.h>
 #include <stdio.h>
 #include <string.h>

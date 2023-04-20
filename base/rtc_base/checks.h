@@ -37,9 +37,6 @@ RTC_NORETURN void rtc_FatalMessage(const char* file, int line, const char* msg);
 }  // extern "C"
 #endif
 
-/// define RTC_DISABLE_CHECK_MSG
-#include "build_config.h"
-
 #ifdef RTC_DISABLE_CHECK_MSG
 #define RTC_CHECK_MSG_ENABLED 0
 #else

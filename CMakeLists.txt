@@ -9,6 +9,9 @@ set(CURRENT_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 
 add_definitions(-DWEBRTC_POSIX)
 add_definitions(-DWEBRTC_LINUX)
+add_definitions(-DRTC_DISABLE_CHECK_MSG)
+add_definitions(-DWEBRTC_APM_DEBUG_DUMP=0)
+
 
 add_compile_options(-march=native)
 
